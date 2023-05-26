@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  mariadb:
+    image: mariadb:latest
+    ports: ["3307:3306"]
+    environment:
+      MARIADB_DATABASE: PMU_RACE
+      MARIADB_USER: sa
+      MARIADB_PASSWORD: sa
+      MARIADB_ROOT_PASSWORD: sa

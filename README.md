@@ -15,13 +15,18 @@ POST `/api/v1/race/create`
 ]
 }
 `
-## Optimisations possibles
+## Remarques
+* Réalisé avec une philosophie Clean Code, Design Pattern Spring, sans surprise.
+* C'est encore perfectible si on itère dessus.
+* Les 2h annoncées sont pratiquement intenables pour faire quelque chose de sérieux.
+* Dans le répertoire `docker` de quoi run les docker nécéssaires
+* Avec plus temps, plus de commentaire de code possible
 
+## Optimisations possibles
 * Aurait pu avoir une orientation RESTFul en utilisant les `@RepositoryRestResource`, avec l'ajout d'une propriété de complétion de la course
 * `springdoc`est pratique pour le dev, à ne pas passer en production
 * A voir si l'utilisation d'un DTO + Mapper au lieu d'exposer le modèle directement est plus pertinent.
 * Avec plus temps, plus de commentaire de code.
-* Réalisé avec une philosophie Clean Code, Design Pattern Spring, sans surprise.
 
 ## OpenAPI definition
 `
